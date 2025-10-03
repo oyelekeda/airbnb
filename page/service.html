@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+      <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <i class="fa-brands fa-airbnb text-red-600 text-2xl"></i>
+            <span class="ml-2 text-xl font-semibold hidden sm:inline"
+              >airbnb</span
+            >
+          </div>
+
+          <nav class="hidden md:flex items-center space-x-6">
+            <a
+              href="#"
+              class="flex items-center gap-1 border-b-2 border-black pb-1"
+            >
+              <i class="fa-solid fa-house"></i><span>Homes</span>
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-1 text-gray-600 hover:text-gray-900"
+            >
+              <i class="fa-solid fa-mask"></i><span>Experiences</span>
+              <span class="ml-1 bg-black text-white text-xs px-1 rounded"
+                >NEW</span
+              >
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-1 text-gray-600 hover:text-gray-900"
+            >
+              <i class="fa-solid fa-concierge-bell"></i><span>Services</span>
+              <span class="ml-1 bg-black text-white text-xs px-1 rounded"
+                >NEW</span
+              >
+            </a>
+          </nav>
+          <div class="flex items-center space-x-3">
+            <button class="text-sm font-medium hidden md:block hover:underline">
+              Become a host
+            </button>
+            <button class="p-2 hover:bg-gray-100 rounded-full transition">
+              <i class="fa-solid fa-globe"></i>
+            </button>
+            <div
+              class="flex items-center border rounded-full p-2 space-x-2 hover:shadow-md transition cursor-pointer"
+            >
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-user-circle text-gray-700 text-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="relative mt-16 [25px] pl-8 pt-7"><b>Chefs</b></div>
+    <div class="px-6 gap-4 flex p-5 justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 ">
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] object-cover overflow-hidden relative">
+                <img class=" h-[210px]  object-cover " src="../image/food1.png" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Hyperlocal, forged fared <br>by clair</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $99 /guest</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$190 minimum.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] relative" src="../image/chef5.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>The Vergan Experience: Plant-<br>Based Private Chef</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $50 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[220px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px]" src="../image/chef2.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>Vibrant Cali-Mediterranean <br>menus by Liza</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $253 /guest</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$1012 minimum</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px]" src="../image/chef3.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Wholesome Flavors by Fernanda</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $90 /guest</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$437 minimum</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/chef4.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>Catalian cuisine by Cristina</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $47 /guest</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/chef6.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>International gourmet fusion<br>by Brian</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $90 /guest</h5>
+        </div>
+    </div>
+    <div class="[25px] pl-8 pt-7"><b>Training</b></div>
+    <div class="flex p-5 justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] object-cover overflow-hidden relative">
+                <img class=" h-[210px] w-[300px] object-cover " src="../image/training.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Personal Training w/ Dayton</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Miami, United States</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$0 group.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px] relative" src="../image//training7.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Total body training by peter</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Pasadena, United States</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $50 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[220px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/training2.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+             <h3 class="text-[15px] "><b>Personal Training $ <br>Group Fitness</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Westmount,Canada</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$86 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/training3.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Yoga and embodidement by Julia</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $25 /guest</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$200 minimum</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/training4.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>High-energy workouts by Vicky</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Redondo Beach, United Kingdom</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $160 /guest</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/training5.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>Sun-sweat by Nishant</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">San Diego, United Kingdom</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $100 /guest</h5>
+        </div>
+    </div>
+    <div class=" text-[25px] pl-8 pt-7"><b>Massage</b></div>
+    <div class="gap-4 flex p-5 justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] object-cover overflow-hidden relative">
+                <img class=" h-[210px] w-[300px] object-cover " src="../image/massage1.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Relaxation and deep tissue <br>massage by Javier</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">$52 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px] relative" src="../image/massage2.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Got Your Back London, Mobile<br>Therapist of the year</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Greater London, United Kingdom</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $67 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[220px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/massage3.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>Recovery and relaxation <br> by Deisy</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Los Angeles, United States</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $50 /guest.★4.2</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/massage4.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+            </div>
+            <h3 class="text-[15px] "><b>Aromatherapeutic massage <br>by Jenna</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Falmouth, United States</h5>
+            <h5 class="text-[14px] font-sans text-black-100">$180 /guest</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/massage5.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>The Massage Escape Guy</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">From $200 /guest.★5.0</h5>
+        </div>
+        <div>
+            <div class="w-[200px] h-[210px] bg-pink-500 rounded-[17px] overflow-hidden relative">
+                <img class="object-cover h-[210px] w-[300px]" src="../image/massage6.jpg" alt="">
+                <i
+                    class="fa-solid fa-heart-circle-exclamation text-[25px] text-white p-2  absolute top-[10px] right-[10px] w-[30px]"></i>
+
+            </div>
+            <h3 class="text-[15px] "><b>Renew body and soul,<br>holistic treatment</b></h3>
+            <h5 class="text-[14px] font-sans text-black-100">Madrid, Spain</h5>
+            <h5 class="text-[14px] font-sans text-black-100">From $59 /guest</h5>
+        </div>
+    </div>
+    <footer class="bg-gray-100 mt-10">
+      <div
+        class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-gray-700"
+      >
+        <div>
+          <h3 class="font-semibold mb-3">Support</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Help Center</a></li>
+            <li><a href="#" class="hover:underline">Safety issues</a></li>
+            <li><a href="#" class="hover:underline">AirCover</a></li>
+            <li><a href="#" class="hover:underline">Anti-discrimination</a></li>
+            <li><a href="#" class="hover:underline">Disability support</a></li>
+            <li>
+              <a href="#" class="hover:underline">Cancellation options</a>
+            </li>
+            <li><a href="#" class="hover:underline">Report concerns</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-3">Hosting</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Airbnb your home</a></li>
+            <li>
+              <a href="#" class="hover:underline">Airbnb your experience</a>
+            </li>
+            <li><a href="#" class="hover:underline">Hosting resources</a></li>
+            <li><a href="#" class="hover:underline">Community forum</a></li>
+            <li>
+              <a href="#" class="hover:underline">Join a free Hosting class</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold mb-3">Airbnb</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Newsroom</a></li>
+            <li><a href="#" class="hover:underline">Careers</a></li>
+            <li><a href="#" class="hover:underline">Investors</a></li>
+            <li><a href="#" class="hover:underline">Gift cards</a></li>
+            <li><a href="#" class="hover:underline">Emergency stays</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
